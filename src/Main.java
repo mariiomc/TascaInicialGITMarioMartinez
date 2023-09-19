@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -15,5 +17,16 @@ public class Main {
 
         }
         System.out.println("Hola :) ¿Qué tal?");
+
+        // Método de calcular la área de un triángulo
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter width:");
+        double b = s.nextDouble();
+        System.out.println("Enter height:");
+        double h = s.nextDouble();
+
+        double area = (b*h)/2;
+        System.out.println("Area del triángulo: " + area);
     }
 }
